@@ -1,0 +1,55 @@
+/* Small devices */
+
+@media screen  and (max-width: 600px){
+
+    header{
+        margin: 1rem auto;
+    }
+
+    nav{
+        padding-bottom: 0;
+    }
+
+    .nav-items{
+        display: none;
+    }
+
+    .nav-logo{
+        padding: 0 1rem;
+    }
+
+    .nav-logo h1{
+        font-size: 1.5rem;
+    }
+
+    .banner{
+        margin: 1rem;
+        background-size: cover;
+    }
+
+    .banner-text{
+        padding: 2rem 1rem;
+    }
+
+    .banner-text h1{
+        font-size: 1.5rem;
+    }
+
+    .banner-text p{
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+
+    .banner-form{
+        flex-direction: column;
+        max-width: 75%;
+    }
+
+    .banner-form .banner-input{
+        margin: 0.5rem;
+        width: 16rem;
+    
+    }
+
+
+}
