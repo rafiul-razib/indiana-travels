@@ -2,6 +2,8 @@
 
 @media screen  and (max-width: 600px){
 
+    /* header section */
+
     header{
         margin: 1rem auto;
     }
@@ -49,6 +51,36 @@
         margin: 0.5rem;
         width: 16rem;
     
+    }
+
+    /* popular tour section */
+
+    .popular-tours{
+        flex-direction: column;
+    }
+
+    section{
+        padding: 1rem;
+    }
+
+    .tour-text{
+        /* padding: 1rem; */
+        box-sizing: border-box;
+    }
+
+  
+
+    .section-title{
+        font-size: 1.25rem;
+    }
+
+    .section-text{
+        font-size: 0.9rem;
+    }
+
+    section img{
+        width: 100%;
+       
     }
 
 

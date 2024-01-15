@@ -152,6 +152,7 @@ nav{
 .popular-tours ul{
     margin-top: 1rem;
     margin-bottom: 1rem;
+    padding-left: 1rem;
 }
 
 .popular-tours ul li{
