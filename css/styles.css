@@ -18,6 +18,10 @@ header, section{
     margin: 0 auto;
 }
 
+section{
+    margin: 6.25rem auto;
+}
+
 .orange-text{
     color: #FF5400;
 }
@@ -28,6 +32,11 @@ header, section{
     background-color: #FF5400;
     color: #fff;
     padding: 1rem 2.5rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-top: 1rem;
 }
 
 /* Navbar styles */
@@ -119,3 +128,37 @@ nav{
 .banner-form .btn-orange{
     color: #fff;
 }
+
+/* Popular Tours Section */
+
+.popular-tours{
+    display: flex;
+    gap: 3.25rem;
+}
+
+.section-title{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.section-text{
+    font-weight: 1rem;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.70);
+    margin-bottom: 1rem;
+}
+
+.popular-tours ul{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.popular-tours ul li{
+    margin: 1rem auto;
+}
+
+/* .tour-img{
+    border: 2px solid red;
+} */
+
