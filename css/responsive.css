@@ -110,4 +110,10 @@
         background-size: cover;
     }
 
+    /* why choose us */
+    
+    .section-description{
+        margin: 1rem 0;
+    }
+
 }
