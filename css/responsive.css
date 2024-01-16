@@ -111,9 +111,47 @@
     }
 
     /* why choose us */
-    
+
     .section-description{
         margin: 1rem 0;
+    }
+
+    /* Newsletter */
+
+    .news-letter{
+        flex-direction: column;
+    }
+
+    .news-letter-form{
+        width: auto;
+    }
+
+    .news-letter-input{
+        width: 18.7rem;
+        height: 3.25rem;
+        margin: 0.5rem auto;
+    }
+
+    .news-letter-image{
+        width: auto;
+        background-size: center;
+        border-radius: 1rem;
+    }
+
+    .btn-save{
+        width: 13.4rem;
+        height: 5rem;
+        bottom: 2rem;
+        right: 0.3rem;
+        padding: 0.3rem ;
+    }
+
+    .btn-save h3{
+        font-size: 1rem;
+    }
+
+    .btn-save h2{
+        font-size: 1.3rem
     }
 
 }

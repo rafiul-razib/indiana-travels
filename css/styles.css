@@ -258,7 +258,7 @@ nav{
     margin-bottom: 1rem;
 }
 
-.why-choose-us h2{
+.why-choose-us h2, .news-letter-title{
     font-size: 1.5rem;
     font-weight: 800;
 }
@@ -279,6 +279,81 @@ nav{
     border-radius: 1rem;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
+}
+
+/* Newsletter section */
+
+.news-letter{
+    display: flex;
+    gap: 1rem;
+}
+
+.news-letter-form{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    border: 1px solid #FF5400;
+    width: 29.625rem;
+    height: 26.375rem;
+    padding: 2.5rem;
+}
+
+.news-letter-form p{
+    margin-left: 0;
+}
+
+.news-letter-image{
+    width: 672px;
+    height: 422px;
+    background: url('../Images/Rectangle\ 8\ \(1\).png') no-repeat center;
+}
+
+
+.news-letter-input{
+    width: 24.56rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 0.5rem auto;
+    border: 0;
+    padding: 1rem;
+}
+
+.btn-subscribe{
+    background-color: #FF5400;
+    font-size: 1.25rem;
+    font-size: 800;
+    color: #fff;
+}
+
+.news-letter hr{
+    background-color: rgba(19, 19, 24, 0.10);
+    margin-bottom: 0.5rem;
+    height: 1px;
+}
+
+.news-letter-image{
+    position: relative;
+}
+
+.btn-save{
+    width: 20.25rem;
+    height: 7.5rem;
+    padding: 1rem;
+    position: absolute;
+    bottom: 3.2rem;
+    right: 0.6rem;
+    transform: rotate(-19.628deg);
+}
+
+.btn-save h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.btn-save h2{
+    font-size: 2rem;
+    font-weight: 800;
 }
 
 
