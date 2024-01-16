@@ -16,6 +16,11 @@
         display: none;
     }
 
+    .hamburger{
+        display: block;
+        padding: 0 1rem;
+    }
+
     .nav-logo{
         padding: 0 1rem;
     }
@@ -51,6 +56,11 @@
         margin: 0.5rem;
         width: 16rem;
     
+    }
+
+    .btn-banner-container{
+        display: flex;
+        justify-content: center;
     }
 
     /* popular tour section */
@@ -152,6 +162,12 @@
 
     .btn-save h2{
         font-size: 1.3rem
+    }
+
+    /* footer */
+
+    footer{
+        padding: 2rem 0;
     }
 
 }
