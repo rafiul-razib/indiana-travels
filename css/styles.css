@@ -436,6 +436,26 @@ footer p{
     text-decoration: none;
 }
 
+.hotel-container{
+    text-align: center;
+}
+
+.hotel-room{
+    height: 15rem;
+}
+
+
+.hotel-room img{
+    width: 100%;
+    height: 15rem;
+
+}
+
+.hotel{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
 
 
 
