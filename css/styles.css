@@ -1,4 +1,11 @@
+/* Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+
+/* Common styles */
 
 *{
     padding: 0;
@@ -6,7 +13,7 @@
     box-sizing: border-box;
 }
 
-/* Common styles */
+
 
 body{
     font-family: 'Mulish', sans-serif;
@@ -257,6 +264,22 @@ nav{
 
 .row .img-box img{
     width: 100%;
+}
+
+/* Travel Vlogs */
+
+.vlogs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.vlogs h1{
+    font-family: Roboto Condensed;
+    font-size: 5rem;
+    text-align: center;
+    color: grey;
 }
 
 /* Why Choose section */

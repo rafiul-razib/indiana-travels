@@ -120,6 +120,22 @@
         background-size: cover;
     }
 
+    /* Bonus Travel Section */
+
+    .vlogs{
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+
+    .vlogs h1{
+        font-size: 1.5rem;
+    }
+
+    iframe{
+        width: 360px;
+        height: 200px;
+    }
+
     /* why choose us */
 
     .section-description{
