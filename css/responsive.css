@@ -49,19 +49,25 @@
 
     .banner-form{
         flex-direction: column;
-        max-width: 75%;
+        max-width: 86%;
+        height: 60%;
+        /* border: 2px solid blue; */
+    }
+
+    .option, .btn-banner-container{
+        width: 100%;
     }
 
     .banner-form .banner-input{
-        margin: 0.5rem;
-        width: 16rem;
+        margin: 0;
+        width: 100%;
     
     }
-
+/* 
     .btn-banner-container{
         display: flex;
         justify-content: center;
-    }
+    } */
 
     /* popular tour section */
 
@@ -136,6 +142,12 @@
         height: 200px;
     }
 
+    /* hotel */
+
+    .hotel{
+        grid-template-columns: 1fr;
+    }
+
     /* why choose us */
 
     .section-description{
@@ -150,17 +162,21 @@
 
     .news-letter-form{
         width: auto;
+        padding: 1.5rem;
+        height: auto;
     }
 
-    .news-letter-input{
+    
+
+    /* .news-letter-input{
         width: 18.7rem;
         height: 3.25rem;
         margin: 0.5rem auto;
-    }
+    } */
 
     .news-letter-image{
         width: auto;
-        background-size: center;
+        background-size: cover;
         border-radius: 1rem;
     }
 
@@ -184,10 +200,6 @@
 
     footer{
         padding: 2rem 0;
-    }
-
-    .hotel{
-        grid-template-columns: 1fr;
     }
 
 }
